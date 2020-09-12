@@ -6114,6 +6114,78 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
+<library name="Samtec t2i">
+<packages>
+<package name="T2I" urn="urn:adsk.eagle:footprint:23194704/1" locally_modified="yes">
+<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="21"/>
+<wire x1="0" y1="5.588" x2="17.8054" y2="5.588" width="0.127" layer="21"/>
+<wire x1="17.8054" y1="5.588" x2="17.8054" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="0" x2="17.78" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="-1.016" x2="13.1318" y2="0" width="0.127" layer="21"/>
+<pad name="S1" x="0.7" y="2.8" drill="0.7"/>
+<pad name="1" x="8.1" y="2.8" drill="0.8" diameter="1.524"/>
+<pad name="2" x="10.1" y="2.8" drill="0.8" diameter="1.524"/>
+<pad name="3" x="12.1" y="2.8" drill="0.8" diameter="1.524"/>
+<pad name="4" x="14.1" y="2.8" drill="0.8" diameter="1.524"/>
+<pad name="S2" x="17.1" y="2.8" drill="0.8"/>
+<wire x1="0" y1="5.588" x2="17.78" y2="5.588" width="0.127" layer="39"/>
+<wire x1="17.78" y1="5.588" x2="17.78" y2="0" width="0.127" layer="39"/>
+<wire x1="17.78" y1="0" x2="13.081" y2="0" width="0.127" layer="39"/>
+<wire x1="13.081" y1="0" x2="13.081" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="13.081" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="39"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.127" layer="39"/>
+<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="39"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="T2I" urn="urn:adsk.eagle:package:23194708/2" type="model">
+<packageinstances>
+<packageinstance name="T2I"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="T2I">
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="4" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="T2I">
+<gates>
+<gate name="G$1" symbol="T2I" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="T2I">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23194708/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6212,6 +6284,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
+<part name="U$4" library="Samtec t2i" deviceset="T2I" device="" package3d_urn="urn:adsk.eagle:package:23194708/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6527,6 +6600,10 @@ Do not populate R3</text>
 <attribute name="NAME" x="147.32" y="207.264" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="147.32" y="204.216" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="U$4" gate="G$1" x="309.88" y="154.94" smashed="yes">
+<attribute name="NAME" x="307.34" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="307.34" y="142.24" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6742,6 +6819,16 @@ Do not populate R3</text>
 <wire x1="314.96" y1="129.54" x2="327.66" y2="129.54" width="0.1524" layer="91"/>
 <label x="317.5" y="129.54" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
+<segment>
+<wire x1="317.5" y1="147.32" x2="330.2" y2="147.32" width="0.1524" layer="91"/>
+<label x="320.04" y="147.32" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<pinref part="U$4" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="154.94" x2="330.2" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<label x="320.04" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAN_H" class="1">
 <segment>
@@ -6780,6 +6867,11 @@ Do not populate R3</text>
 <pinref part="J5" gate="J$1" pin="3"/>
 <wire x1="314.96" y1="134.62" x2="327.66" y2="134.62" width="0.1524" layer="91"/>
 <label x="317.5" y="134.62" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="152.4" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
+<label x="320.04" y="152.4" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CAN_L" class="1">
@@ -6821,6 +6913,11 @@ Do not populate R3</text>
 <pinref part="J5" gate="J$1" pin="2"/>
 <wire x1="314.96" y1="132.08" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
 <label x="317.5" y="132.08" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="149.86" x2="330.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="320.04" y="149.86" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<pinref part="U$4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
