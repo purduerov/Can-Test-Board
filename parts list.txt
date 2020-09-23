@@ -1,0 +1,62 @@
+Partlist
+
+Exported from CAN-Test-Board.brd at 9/23/2020 9:46 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package          Library                   Position (mil)        Orientation
+
+C1       4.7uF          0603             SparkFun-Capacitors       (810 860)             MR270
+C2       4.7uF          0603             SparkFun-Capacitors       (590 690)             MR90
+C3       4.7uF          0603             SparkFun-Capacitors       (590 860)             MR270
+C4       4.7uF          0603             SparkFun-Capacitors       (660 860)             MR270
+C5       4.7uF          0603             SparkFun-Capacitors       (740 860)             MR270
+C6       4.7uF          0603             SparkFun-Capacitors       (660 690)             MR90
+C7       4.7uF          0603             SparkFun-Capacitors       (840 340)             MR180
+C8       4.7uF          0603             SparkFun-Capacitors       (980 1160)            R0
+C9       4.7uF          0603             SparkFun-Capacitors       (550 1160)            R180
+C10      4.7uF          0603             SparkFun-Capacitors       (1160 1080)           MR270
+C11      0.1uF          0603             SparkFun-Capacitors       (1120 1230)           R90
+C12      100nF          0603             SparkFun-Capacitors       (700 1990)            MR90
+C13      18pF           CAP_0603         Resistor_Capacitor        (1350 1870)           R270
+C14      18pF           CAP_0603         Resistor_Capacitor        (1350 1440)           R90
+C15      100nF          0603             SparkFun-Capacitors       (890 1480)            MR90
+C16      4.7nF          0603             SparkFun-Capacitors       (1670 910)            MR270
+C17      1.0uF          0603             SparkFun-Capacitors       (1620 1240)           R0
+C18      1.0uF          0603             SparkFun-Capacitors       (1770 1320)           R90
+D1                      LED-0603         SparkFun-LED              (1110 150)            R270
+D2                      LED-0603         SparkFun-LED              (1010 150)            R270
+J1                      1X12             SparkFun-Connectors       (90 100)              R90
+J2                      1X12             SparkFun-Connectors       (1960 1190)           R270
+J3                      1X05             SparkFun-Connectors       (370 1640)            R90
+J4                      1X03             SparkFun-Connectors       (210 1570)            R270
+J5                      1X03             SparkFun-Connectors       (80 1570)             R270
+PCB1     RPI2           RPI2             MicrocontrollerComponents (2310 4300)           R180
+R1       1k             0603             SparkFun-Resistors        (740 1120)            R270
+R2       1k             0603             SparkFun-Resistors        (810 230)             MR270
+R3       1k             0603             SparkFun-Resistors        (800 1120)            R270
+R4       0              0603             SparkFun-Resistors        (1210 1750)           R180
+R5       0              0603             SparkFun-Resistors        (640 1530)            R90
+R6       60             0603             SparkFun-Resistors        (1640 1050)           MR0
+R7                      0603             SparkFun-Resistors        (1110 300)            R90
+R8       60             0603             SparkFun-Resistors        (1640 1130)           MR180
+R9                      0603             SparkFun-Resistors        (1010 310)            R90
+R10      60             0603             SparkFun-Resistors        (1010 1270)           R180
+R11      60             0603             SparkFun-Resistors        (1010 1350)           R0
+R12      10k            0603             SparkFun-Resistors        (1730 1450)           R180
+R13      10k            0603             SparkFun-Resistors        (1730 1520)           R180
+R14                     0603             SparkFun-Resistors        (1480 1310)           R0
+R15      0              0603             SparkFun-Resistors        (1730 1640)           R270
+R19      0              0603             SparkFun-Resistors        (1210 1560)           R180
+RESET                   SW_2512          DiscreteComponents        (610 350)             R0
+SV1                     FE05-1           con-lsta                  (510 120)             R180
+U$1      MCP2515        MCP2515          PI_Shield_Library         (1100 1660)           R90
+U$2      TCAN337D       TCAN337D         PI_Shield_Library         (800 1560)            MR270
+U$3      STM32F042K6T6  STM32F042K6T6    PI_Shield_Library         (590 940)             R270
+U$4      T2I            T2I              Samtec t2i                (1880 240)            R180
+U$5      NCP114         TSOP-5           LED_lib                   (1680 1380)           R270
+U$8      TCAN337D       TCAN337D         PI_Shield_Library         (1270 1160)           MR180
+Y1       ECS-80-S-4X    XTAL_ECS-80-S-4X ECS-80-S-4X               (770 1160)            MR0
+Y2       ECS-80-S-4X    XTAL_ECS-80-S-4X ECS-80-S-4X               (1350 1660)           MR90
