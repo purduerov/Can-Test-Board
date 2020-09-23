@@ -6234,11 +6234,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="330"/>
 <part name="GND11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="U$1" library="PI_Shield_Library" deviceset="MCP2515" device=""/>
-<part name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22NF/22,000PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414@1/1" value="100nF"/>
+<part name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22NF/22,000PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414@1/1" value="0.1uF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C13" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="C0603C180J5GACTU" device="" package3d_urn="urn:adsk.eagle:package:10872909/3" value="18pF"/>
@@ -6273,7 +6273,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="330"/>
 <part name="GND23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="" package3d_urn="urn:adsk.eagle:package:38169/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="" package3d_urn="urn:adsk.eagle:package:38169/1"/>
@@ -6282,7 +6282,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
+<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="U$4" library="Samtec t2i" deviceset="T2I" device="" package3d_urn="urn:adsk.eagle:package:23194708/2"/>
 </parts>
@@ -6976,9 +6976,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="VALUE" x="20.32" y="124.714" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="20.32" y="137.668" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="R14" gate="G$1" x="241.3" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="241.3" y="54.356" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="241.3" y="57.404" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R14" gate="G$1" x="241.3" y="55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="241.3" y="57.404" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="241.3" y="54.356" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="U$4" gate="G$1" x="25.4" y="154.94" smashed="yes">
 <attribute name="NAME" x="22.86" y="157.48" size="1.778" layer="95"/>

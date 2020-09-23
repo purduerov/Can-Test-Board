@@ -40,14 +40,14 @@ R3       1k             0603             SparkFun-Resistors        (800 1120)   
 R4       0              0603             SparkFun-Resistors        (1210 1750)           R180
 R5       0              0603             SparkFun-Resistors        (640 1530)            R90
 R6       60             0603             SparkFun-Resistors        (1640 1050)           MR0
-R7                      0603             SparkFun-Resistors        (1110 300)            R90
+R7       330            0603             SparkFun-Resistors        (1110 300)            R90
 R8       60             0603             SparkFun-Resistors        (1640 1130)           MR180
-R9                      0603             SparkFun-Resistors        (1010 310)            R90
+R9       330            0603             SparkFun-Resistors        (1010 310)            R90
 R10      60             0603             SparkFun-Resistors        (1010 1270)           R180
 R11      60             0603             SparkFun-Resistors        (1010 1350)           R0
 R12      10k            0603             SparkFun-Resistors        (1730 1450)           R180
 R13      10k            0603             SparkFun-Resistors        (1730 1520)           R180
-R14                     0603             SparkFun-Resistors        (1480 1310)           R0
+R14      0              0603             SparkFun-Resistors        (1480 1310)           R0
 R15      0              0603             SparkFun-Resistors        (1730 1640)           R270
 R19      0              0603             SparkFun-Resistors        (1210 1560)           R180
 RESET                   SW_2512          DiscreteComponents        (610 350)             R0
