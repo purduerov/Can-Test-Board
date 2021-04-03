@@ -6728,13 +6728,6 @@ Do not populate R3</text>
 <label x="218.44" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RESET" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
-<wire x1="193.04" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-<label x="198.12" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="OSC1" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OSC1"/>
@@ -6826,6 +6819,9 @@ Do not populate R3</text>
 <wire x1="200.66" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 <junction x="200.66" y="165.1"/>
 <label x="198.12" y="175.26" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="RESET"/>
+<wire x1="193.04" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
